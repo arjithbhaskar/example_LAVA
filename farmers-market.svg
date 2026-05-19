@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bgFm" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f3ecdc"/>
+      <stop offset="100%" stop-color="#e0d3b5"/>
+    </linearGradient>
+    <pattern id="tent" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+      <rect width="30" height="30" fill="#c4633a"/>
+      <rect x="15" width="15" height="30" fill="#faf6ee"/>
+    </pattern>
+    <pattern id="tent2" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+      <rect width="30" height="30" fill="#2f5d3f"/>
+      <rect x="15" width="15" height="30" fill="#faf6ee"/>
+    </pattern>
+  </defs>
+
+  <rect width="500" height="500" fill="url(#bgFm)"/>
+
+  <!-- Distant buildings -->
+  <rect x="0" y="200" width="500" height="120" fill="#a07a2c" opacity="0.3"/>
+  <rect x="40" y="180" width="60" height="140" fill="#9c8e74" opacity="0.5"/>
+  <rect x="120" y="190" width="80" height="130" fill="#a07a2c" opacity="0.5"/>
+  <rect x="220" y="170" width="100" height="150" fill="#b08767" opacity="0.5"/>
+  <rect x="340" y="200" width="70" height="120" fill="#9c8e74" opacity="0.5"/>
+
+  <!-- Trees -->
+  <g transform="translate(80, 260)">
+    <rect x="-3" y="0" width="6" height="40" fill="#5a3e22"/>
+    <circle cx="0" cy="-10" r="30" fill="#2f5d3f"/>
+    <circle cx="-15" cy="-15" r="22" fill="#3a6e4c"/>
+    <circle cx="15" cy="-12" r="24" fill="#3a6e4c"/>
+  </g>
+  <g transform="translate(420, 270)">
+    <rect x="-3" y="0" width="6" height="50" fill="#5a3e22"/>
+    <circle cx="0" cy="-10" r="32" fill="#2f5d3f"/>
+    <circle cx="-15" cy="-18" r="22" fill="#3a6e4c"/>
+    <circle cx="18" cy="-15" r="24" fill="#6b8e5a"/>
+  </g>
+
+  <!-- Ground -->
+  <rect x="0" y="320" width="500" height="180" fill="#9c8e74"/>
+  <rect x="0" y="320" width="500" height="180" fill="#7a6f5a" opacity="0.4"/>
+
+  <!-- Tent 1: striped red -->
+  <path d="M80,260 L180,260 L200,290 L60,290 Z" fill="url(#tent)"/>
+  <rect x="80" y="290" width="100" height="3" fill="#1a2820"/>
+  <rect x="85" y="293" width="3" height="80" fill="#5a3e22"/>
+  <rect x="170" y="293" width="3" height="80" fill="#5a3e22"/>
+  <!-- Table -->
+  <rect x="80" y="335" width="100" height="40" fill="#faf6ee"/>
+  <rect x="80" y="335" width="100" height="4" fill="#c69749"/>
+  <!-- Produce on table -->
+  <circle cx="95" cy="330" r="6" fill="#c4633a"/>
+  <circle cx="110" cy="330" r="5" fill="#c4633a"/>
+  <circle cx="125" cy="330" r="6" fill="#c69749"/>
+  <circle cx="140" cy="330" r="5" fill="#6b8e5a"/>
+  <circle cx="155" cy="330" r="6" fill="#c4633a"/>
+  <circle cx="168" cy="330" r="4" fill="#c69749"/>
+  <!-- Crate -->
+  <rect x="85" y="345" width="35" height="20" fill="none" stroke="#5a3e22" stroke-width="1.5"/>
+  <circle cx="92" cy="348" r="3" fill="#2f5d3f"/>
+  <circle cx="100" cy="350" r="3" fill="#2f5d3f"/>
+  <circle cx="108" cy="348" r="3" fill="#2f5d3f"/>
+  <circle cx="115" cy="350" r="3" fill="#2f5d3f"/>
+
+  <!-- Tent 2: striped green -->
+  <path d="M220,250 L340,250 L360,285 L200,285 Z" fill="url(#tent2)"/>
+  <rect x="220" y="285" width="120" height="3" fill="#1a2820"/>
+  <rect x="225" y="288" width="3" height="90" fill="#5a3e22"/>
+  <rect x="330" y="288" width="3" height="90" fill="#5a3e22"/>
+  <!-- Sign -->
+  <rect x="245" y="263" width="70" height="16" fill="#faf6ee"/>
+  <text x="280" y="275" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#1f3f2a" font-style="italic">FRESH</text>
+  <!-- Table -->
+  <rect x="220" y="330" width="120" height="45" fill="#faf6ee"/>
+  <rect x="220" y="330" width="120" height="4" fill="#2f5d3f"/>
+  <!-- Flowers -->
+  <g transform="translate(240, 325)">
+    <circle cx="0" cy="0" r="6" fill="#c4633a"/>
+    <circle cx="0" cy="0" r="2" fill="#c69749"/>
+  </g>
+  <g transform="translate(260, 322)">
+    <circle cx="0" cy="0" r="7" fill="#c69749"/>
+    <circle cx="0" cy="0" r="2" fill="#5a3e22"/>
+  </g>
+  <g transform="translate(280, 326)">
+    <circle cx="0" cy="0" r="6" fill="#c4633a"/>
+    <circle cx="0" cy="0" r="2" fill="#c69749"/>
+  </g>
+  <g transform="translate(300, 322)">
+    <circle cx="0" cy="0" r="7" fill="#a04f2c"/>
+    <circle cx="0" cy="0" r="2" fill="#c69749"/>
+  </g>
+  <g transform="translate(320, 326)">
+    <circle cx="0" cy="0" r="6" fill="#c69749"/>
+    <circle cx="0" cy="0" r="2" fill="#5a3e22"/>
+  </g>
+
+  <!-- People silhouettes -->
+  <g transform="translate(190, 380)">
+    <circle cx="0" cy="0" r="12" fill="#1a2820"/>
+    <rect x="-12" y="10" width="24" height="40" rx="4" fill="#c4633a"/>
+    <rect x="-12" y="40" width="10" height="40" fill="#2d3b32"/>
+    <rect x="2" y="40" width="10" height="40" fill="#2d3b32"/>
+  </g>
+  <g transform="translate(220, 390)">
+    <circle cx="0" cy="0" r="10" fill="#1a2820"/>
+    <rect x="-10" y="8" width="20" height="32" rx="3" fill="#2f5d3f"/>
+    <rect x="-10" y="35" width="8" height="35" fill="#2d3b32"/>
+    <rect x="2" y="35" width="8" height="35" fill="#2d3b32"/>
+  </g>
+  <g transform="translate(370, 385)">
+    <circle cx="0" cy="0" r="11" fill="#1a2820"/>
+    <rect x="-11" y="9" width="22" height="38" rx="3" fill="#c69749"/>
+    <rect x="-11" y="42" width="9" height="38" fill="#2d3b32"/>
+    <rect x="2" y="42" width="9" height="38" fill="#2d3b32"/>
+  </g>
+
+  <!-- Bunting -->
+  <path d="M30,200 Q250,180 470,200" stroke="#5a3e22" stroke-width="1" fill="none"/>
+  <g fill="#c4633a">
+    <path d="M60,195 L70,195 L65,210 Z"/>
+    <path d="M120,189 L130,189 L125,204 Z" fill="#c69749"/>
+    <path d="M180,184 L190,184 L185,199 Z" fill="#2f5d3f"/>
+    <path d="M240,182 L250,182 L245,197 Z"/>
+    <path d="M300,184 L310,184 L305,199 Z" fill="#c69749"/>
+    <path d="M360,189 L370,189 L365,204 Z" fill="#2f5d3f"/>
+    <path d="M420,195 L430,195 L425,210 Z"/>
+  </g>
+
+  <!-- Sun -->
+  <circle cx="430" cy="80" r="30" fill="#c69749" opacity="0.5"/>
+  <circle cx="430" cy="80" r="20" fill="#faf6ee" opacity="0.7"/>
+</svg>

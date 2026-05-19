@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5a3e22"/>
+      <stop offset="100%" stop-color="#2d1f12"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="250" fill="url(#bg4)"/>
+  <!-- ambient glow -->
+  <circle cx="200" cy="125" r="100" fill="#c69749" opacity="0.15"/>
+
+  <!-- Whiskey glass -->
+  <g transform="translate(200, 130)">
+    <!-- glass -->
+    <path d="M-40,-40 L-35,30 L35,30 L40,-40 Z" fill="#faf6ee" opacity="0.18" stroke="#faf6ee" stroke-width="2"/>
+    <!-- whiskey -->
+    <path d="M-37,-15 L-35,30 L35,30 L37,-15 Z" fill="#c69749" opacity="0.85"/>
+    <!-- ice -->
+    <rect x="-15" y="-12" width="14" height="14" fill="#faf6ee" opacity="0.6" transform="rotate(8 -8 -5)"/>
+    <rect x="2" y="-10" width="12" height="12" fill="#faf6ee" opacity="0.55" transform="rotate(-12 8 -4)"/>
+    <!-- highlight -->
+    <line x1="-32" y1="-35" x2="-30" y2="20" stroke="#faf6ee" stroke-width="2" opacity="0.7"/>
+  </g>
+
+  <!-- Cowboy hat above -->
+  <g transform="translate(200, 70)">
+    <ellipse cx="0" cy="0" rx="55" ry="8" fill="#3a2818"/>
+    <path d="M-30,0 Q-30,-25 -20,-30 Q0,-35 20,-30 Q30,-25 30,0 Z" fill="#5a3e22"/>
+    <path d="M-25,-5 Q0,-2 25,-5" stroke="#3a2818" stroke-width="2" fill="none"/>
+  </g>
+
+  <text x="200" y="225" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="18" fill="#faf6ee">Whiskey &amp; Bites</text>
+</svg>

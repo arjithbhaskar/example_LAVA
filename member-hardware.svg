@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="skyH" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8d9b8"/>
+      <stop offset="100%" stop-color="#d9cfba"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#skyH)"/>
+
+  <!-- Building -->
+  <rect x="50" y="100" width="500" height="320" fill="#c4633a"/>
+  <!-- Brick texture -->
+  <g opacity="0.25">
+    <g fill="#8a3a1c">
+      <rect x="50" y="100" width="500" height="3"/>
+      <rect x="50" y="130" width="500" height="3"/>
+      <rect x="50" y="160" width="500" height="3"/>
+      <rect x="50" y="190" width="500" height="3"/>
+      <rect x="50" y="220" width="500" height="3"/>
+      <rect x="50" y="250" width="500" height="3"/>
+      <rect x="50" y="280" width="500" height="3"/>
+      <rect x="50" y="310" width="500" height="3"/>
+      <rect x="50" y="340" width="500" height="3"/>
+      <rect x="50" y="370" width="500" height="3"/>
+      <rect x="50" y="400" width="500" height="3"/>
+    </g>
+  </g>
+  <!-- Roof -->
+  <rect x="40" y="90" width="520" height="20" fill="#3a2818"/>
+  <!-- Sign band -->
+  <rect x="80" y="120" width="440" height="55" fill="#1a2820"/>
+  <rect x="80" y="120" width="440" height="55" fill="none" stroke="#c69749" stroke-width="2"/>
+  <text x="300" y="158" text-anchor="middle" font-family="Georgia, serif" font-weight="bold" font-size="32" fill="#c69749" letter-spacing="4">LOS ALTOS HARDWARE</text>
+  <text x="300" y="172" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="11" fill="#faf6ee" letter-spacing="2">SINCE 1989 · 441 FIRST STREET</text>
+
+  <!-- Windows -->
+  <rect x="90" y="200" width="160" height="160" fill="#1a2820" opacity="0.85"/>
+  <rect x="90" y="200" width="160" height="160" fill="none" stroke="#faf6ee" stroke-width="3"/>
+  <line x1="170" y1="200" x2="170" y2="360" stroke="#faf6ee" stroke-width="2"/>
+  <line x1="90" y1="280" x2="250" y2="280" stroke="#faf6ee" stroke-width="2"/>
+  <!-- tools in window -->
+  <g transform="translate(130, 240)" stroke="#c69749" stroke-width="2" fill="none">
+    <line x1="-10" y1="-10" x2="10" y2="10"/>
+    <line x1="-12" y1="-8" x2="-8" y2="-12"/>
+    <line x1="8" y1="12" x2="12" y2="8"/>
+  </g>
+  <g transform="translate(210, 240)">
+    <rect x="-8" y="-10" width="16" height="20" fill="none" stroke="#c69749" stroke-width="2"/>
+    <line x1="0" y1="10" x2="0" y2="20" stroke="#c69749" stroke-width="2"/>
+  </g>
+  <g transform="translate(130, 320)" fill="#c69749">
+    <circle r="8"/>
+    <rect x="-3" y="0" width="6" height="20"/>
+  </g>
+  <g transform="translate(210, 320)" stroke="#c69749" stroke-width="2" fill="none">
+    <path d="M-10,-8 L10,-8 L8,8 L-8,8 Z"/>
+  </g>
+
+  <rect x="350" y="200" width="160" height="160" fill="#1a2820" opacity="0.85"/>
+  <rect x="350" y="200" width="160" height="160" fill="none" stroke="#faf6ee" stroke-width="3"/>
+  <line x1="430" y1="200" x2="430" y2="360" stroke="#faf6ene" stroke-width="2"/>
+  <line x1="350" y1="280" x2="510" y2="280" stroke="#faf6ee" stroke-width="2"/>
+
+  <!-- Door -->
+  <rect x="275" y="240" width="50" height="120" fill="#3a2818"/>
+  <rect x="275" y="240" width="50" height="120" fill="none" stroke="#c69749" stroke-width="2"/>
+  <circle cx="315" cy="300" r="2" fill="#c69749"/>
+  <rect x="280" y="250" width="40" height="30" fill="#1a2820"/>
+  <line x1="300" y1="250" x2="300" y2="280" stroke="#c69749" stroke-width="1"/>
+
+  <!-- Awning -->
+  <path d="M70,180 L530,180 L520,200 L80,200 Z" fill="#a04f2c"/>
+  <path d="M90,180 L90,200 M120,180 L120,200 M150,180 L150,200 M180,180 L180,200 M210,180 L210,200 M240,180 L240,200 M270,180 L270,200 M300,180 L300,200 M330,180 L330,200 M360,180 L360,200 M390,180 L390,200 M420,180 L420,200 M450,180 L450,200 M480,180 L480,200 M510,180 L510,200" stroke="#8a3a1c" stroke-width="1.5"/>
+
+  <!-- Sidewalk -->
+  <rect x="0" y="420" width="600" height="30" fill="#d9cfba"/>
+
+  <!-- Flag/sign -->
+  <rect x="540" y="280" width="3" height="50" fill="#1a2820"/>
+  <path d="M540,275 L570,275 L575,290 L540,290 Z" fill="#2f5d3f"/>
+  <text x="555" y="287" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#c69749">OPEN</text>
+</svg>

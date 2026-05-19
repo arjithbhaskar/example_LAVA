@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1f3f2a"/>
+      <stop offset="100%" stop-color="#2f5d3f"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="250" fill="url(#bg3)"/>
+  <!-- pattern -->
+  <g opacity="0.1" fill="#c69749">
+    <circle cx="50" cy="50" r="3"/>
+    <circle cx="100" cy="80" r="2"/>
+    <circle cx="350" cy="60" r="3"/>
+    <circle cx="300" cy="40" r="2"/>
+    <circle cx="370" cy="180" r="2"/>
+    <circle cx="40" cy="200" r="3"/>
+  </g>
+
+  <!-- Wine glasses with cheers -->
+  <g transform="translate(160, 125)">
+    <path d="M-15,-50 Q-15,-15 0,-10 Q15,-15 15,-50 Z" fill="#c4633a"/>
+    <path d="M-15,-50 Q-15,-45 0,-43 Q15,-45 15,-50 Z" fill="#a04f2c"/>
+    <line x1="0" y1="-10" x2="0" y2="35" stroke="#faf6ee" stroke-width="2"/>
+    <ellipse cx="0" cy="37" rx="18" ry="3" fill="#faf6ee"/>
+  </g>
+  <g transform="translate(240, 125)">
+    <path d="M-15,-50 Q-15,-15 0,-10 Q15,-15 15,-50 Z" fill="#c69749"/>
+    <path d="M-15,-50 Q-15,-45 0,-43 Q15,-45 15,-50 Z" fill="#a07a2c"/>
+    <line x1="0" y1="-10" x2="0" y2="35" stroke="#faf6ee" stroke-width="2"/>
+    <ellipse cx="0" cy="37" rx="18" ry="3" fill="#faf6ee"/>
+  </g>
+  <!-- Sparkle at cheers point -->
+  <g transform="translate(200, 85)" stroke="#c69749" stroke-width="1.5">
+    <line x1="-15" y1="0" x2="-8" y2="0"/>
+    <line x1="8" y1="0" x2="15" y2="0"/>
+    <line x1="0" y1="-15" x2="0" y2="-8"/>
+    <line x1="-10" y1="-10" x2="-5" y2="-5"/>
+    <line x1="10" y1="-10" x2="5" y2="-5"/>
+  </g>
+
+  <text x="200" y="225" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="18" fill="#faf6ee">Arts &amp; Wine Festival</text>
+</svg>

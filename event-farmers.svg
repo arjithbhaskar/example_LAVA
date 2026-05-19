@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2f5d3f"/>
+      <stop offset="100%" stop-color="#1f3f2a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="250" fill="url(#bg1)"/>
+  <!-- circle backdrop -->
+  <circle cx="200" cy="125" r="90" fill="#c69749" opacity="0.15"/>
+  <circle cx="200" cy="125" r="60" fill="#c69749" opacity="0.2"/>
+
+  <!-- Basket -->
+  <g transform="translate(200, 125)">
+    <ellipse cx="0" cy="20" rx="70" ry="10" fill="#1a2820" opacity="0.4"/>
+    <path d="M-60,0 L60,0 L50,30 L-50,30 Z" fill="#8a5a2c"/>
+    <path d="M-60,0 L60,0 L60,5 L-60,5 Z" fill="#5a3e22"/>
+    <path d="M-55,5 L-50,5 L-50,30 L-55,30 Z M-40,5 L-35,5 L-35,30 L-40,30 Z M-25,5 L-20,5 L-20,30 L-25,30 Z M-10,5 L-5,5 L-5,30 L-10,30 Z M5,5 L10,5 L10,30 L5,30 Z M20,5 L25,5 L25,30 L20,30 Z M35,5 L40,5 L40,30 L35,30 Z M50,5 L55,5 L55,30 L50,30 Z" fill="#5a3e22" opacity="0.4"/>
+    <!-- handle -->
+    <path d="M-40,0 Q0,-30 40,0" stroke="#5a3e22" stroke-width="5" fill="none"/>
+    <!-- produce -->
+    <circle cx="-30" cy="-8" r="12" fill="#c4633a"/>
+    <circle cx="-10" cy="-12" r="14" fill="#c69749"/>
+    <circle cx="15" cy="-10" r="13" fill="#c4633a"/>
+    <circle cx="32" cy="-6" r="11" fill="#6b8e5a"/>
+    <!-- leaves -->
+    <path d="M-10,-25 Q-5,-32 0,-25" stroke="#2f5d3f" stroke-width="2" fill="#3a6e4c"/>
+    <path d="M15,-22 Q20,-28 25,-22" stroke="#2f5d3f" stroke-width="2" fill="#3a6e4c"/>
+  </g>
+
+  <text x="200" y="220" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="18" fill="#faf6ee">Farmers' Market</text>
+</svg>

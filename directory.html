@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Member Directory — LAVA</title>
+<meta name="description" content="Browse over 150 LAVA member businesses serving Downtown Los Altos: shopping, dining, services, and professional offices." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter+Tight:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav" aria-label="Primary">
+    <a class="brand" href="index.html" aria-label="LAVA Home">
+      <span class="brand-mark">L</span>
+      <span class="brand-name">
+        <span class="lava">LAVA</span>
+        <span class="full">Los Altos Village Assoc. · Est. 1963</span>
+      </span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" role="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="directory.html">Members</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="join.html">Join</a></li>
+      <li><a class="btn-donate" href="donate.html"><span class="heart">♥</span> Donate</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">150+ Local Businesses</span>
+    <h1>Member <span class="italic-accent">Directory</span></h1>
+    <p class="lead">Every business in this directory is part of the LAVA family — neighbors who chose to invest in Downtown Los Altos. Shop them. Eat with them. Get to know them.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+
+    <div class="directory-controls">
+      <div class="search-box">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: var(--muted)">
+          <circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21" stroke-linecap="round"/>
+        </svg>
+        <input type="text" id="member-search" placeholder="Search businesses…" aria-label="Search" />
+      </div>
+      <div class="filter-tabs" role="tablist">
+        <button class="active" data-cat="all">All</button>
+        <button data-cat="shop">Shop</button>
+        <button data-cat="dine">Dine</button>
+        <button data-cat="service">Services</button>
+        <button data-cat="professional">Professional</button>
+        <button data-cat="nonprofit">Non-Profit</button>
+      </div>
+    </div>
+
+    <div class="member-grid-list">
+
+      <a class="member-card reveal" id="los-altos-hardware" href="#" data-name="Los Altos Hardware" data-category="service">
+        <span class="cat">Service · Hardware</span>
+        <h4>Los Altos Hardware</h4>
+        <p class="addr">441 First Street</p>
+        <span class="visit">Visit website <span>↗</span></span>
+      </a>
+
+      <a class="member-card reveal" href="#" data-name="Akane Restaurant" data-category="dine">
+        <span class="cat">Dine · Japanese</span>
+        <h4>Akane Restaurant</h4>
+        <p class="addr">250 Third Street</p>
+        <span class="visit">Visit website <span>↗</span></span>
+      </a>
+
+      <a class="member-card reveal" href="#" data-name="The Post" data-category="dine">
+        <span class="cat">Dine · American</span>
+        <h4>The Post</h4>
+        <p class="addr">200 Main Street</p>
+        <span class="visit">Visit website <span>↗</span></span>
+      </a>
+
+      <a class="member-card reveal" href="#" data-name="Voltaire" data-category="dine">
+        <span class="cat">Dine · French</span>
+        <h4>Voltaire</h4>
+        <p class="addr">355 Main Street</p>
+        <span class="visit">Visit website <span>↗</span></span>
+      </a>
+
+      <a class="member-card reveal" href="#" data-name="Linden Tree Books" data-category="shop">
+        <span class="cat">Shop · Bookstore</span>
+        <h4>Linden Tree Books</h4>
+        <p class="addr">170 State Street</p>
+        <span class="visit">Visit website <span>↗</span></span>
+      </a>
+
+      <a class="member-card reveal" href="#" data-name="Bumble" data-category="shop">
+        <span class="cat">Shop · Children</span>
+        <h4>Bumble</h4>
+        <p class="addr">300 State Street</p>
+        <span class="visit">Visit website <span>↗</span></span>
+      </a>
+
+      <a class="member-card reveal" href="#" data-name="Pastis" data-category="dine">
+        <span class="cat">Dine · Bistro</span>
+        <h4>Pastis</h4>
+        <p class="addr">447 First Street</p>
+        <span class="visit">Visit website <span>↗</span></span>
+      </a>
+
+      <a class="member-card reveal" href="#" data-name="Esther's German Bakery" data-category="dine">
+        <span class="cat">Dine · Bakery</span>
+        <h4>Esther's German Bakery</h4>
+        <p class="addr">261 State Street</p>
+        <span class="visit">Visit website <span>↗</span></span>
+      </a>
+
+      <a class="member-card reveal" href="#" data-name="Pages Bookstore" data-category="shop">
+        <span class="cat">Shop · Bookstore</span>
+        <h4>Pages: A Bookstore</h4>
+        <p class="addr">102 First Street</p>
+        <span class="visit">Visit website <span>↗</span></span>
+      </a>
+
+      <a class="member-card reveal" href="#" data-name="Los Altos Florist" data-category="shop">
+        <span class="cat">Shop · Florist</span>
+        <h4>Los Altos Florist</h4>
+        <p class="addr">370 Main Street</p>
+        <span class="visit">Visit website <span>↗</span></span>
+      </a>
+
+      <a class="member-card reveal" href="#" data-name="Le Boulanger" data-category="dine">
+        <span class="cat">Dine · Bakery Café</span>
+        <h4>Le Boulanger</h4>
+        <p class="addr">379 State Street</p>
+        <span class="visit">Visit website <span>↗</span></span>
+      </a>
+
+      <a class="member-card reveal" href="#" data-name="Los Altos Gem" data-category="shop">
+        <span class="cat">Shop · Specialty</span>
+        <h4>Los Altos Gem &amp; Mineral</h4>
+        <p class="addr">307 Main Street</p>
+        <span class="visit">Visit website <span>↗</span></span>
+      </a>
+
+      <a class="member-card reveal" href="#" data-name="Bank of America" data-category="professional">
+        <span class="cat">Professional · Banking</span>
+        <h4>Bank of America</h4>
+        <p class="addr">375 First Street</p>
+        <span class="visit">Visit website <span>↗</span></span>
+      </a>
+
+      <a class="member-card reveal" href="#" data-name="Los Altos Community Foundation" data-category="nonprofit">
+        <span class="cat">Non-Profit</span>
+        <h4>Los Altos Community Foundation</h4>
+        <p class="addr">183 Hillview Avenue</p>
+        <span class="visit">Visit website <span>↗</span></span>
+      </a>
+
+      <a class="member-card reveal" href="#" data-name="Aqui California Grill" data-category="dine">
+        <span class="cat">Dine · California Mexican</span>
+        <h4>Aqui California Grill</h4>
+        <p class="addr">395 Main Street</p>
+        <span class="visit">Visit website <span>↗</span></span>
+      </a>
+
+      <a class="member-card reveal" href="#" data-name="Wells Fargo" data-category="professional">
+        <span class="cat">Professional · Banking</span>
+        <h4>Wells Fargo</h4>
+        <p class="addr">399 Main Street</p>
+        <span class="visit">Visit website <span>↗</span></span>
+      </a>
+
+      <a class="member-card reveal" href="#" data-name="Goldfish" data-category="shop">
+        <span class="cat">Shop · Jewelry</span>
+        <h4>Goldfish</h4>
+        <p class="addr">281 Main Street</p>
+        <span class="visit">Visit website <span>↗</span></span>
+      </a>
+
+      <a class="member-card reveal" href="#" data-name="Heritage Cleaners" data-category="service">
+        <span class="cat">Service · Cleaners</span>
+        <h4>Heritage Cleaners</h4>
+        <p class="addr">175 Main Street</p>
+        <span class="visit">Visit website <span>↗</span></span>
+      </a>
+
+      <a class="member-card reveal" href="#" data-name="Salon Brio" data-category="service">
+        <span class="cat">Service · Salon</span>
+        <h4>Salon Brio</h4>
+        <p class="addr">200 State Street</p>
+        <span class="visit">Visit website <span>↗</span></span>
+      </a>
+
+      <a class="member-card reveal" href="#" data-name="Andy's Local Market" data-category="shop">
+        <span class="cat">Shop · Grocery</span>
+        <h4>Andy's Local Market</h4>
+        <p class="addr">388 Main Street</p>
+        <span class="visit">Visit website <span>↗</span></span>
+      </a>
+
+      <a class="member-card reveal" href="#" data-name="Sumika" data-category="dine">
+        <span class="cat">Dine · Japanese</span>
+        <h4>Sumika</h4>
+        <p class="addr">236 Plaza Central</p>
+        <span class="visit">Visit website <span>↗</span></span>
+      </a>
+
+      <a class="member-card reveal" href="#" data-name="Hala Salon" data-category="service">
+        <span class="cat">Service · Salon</span>
+        <h4>Hala Salon</h4>
+        <p class="addr">158 State Street</p>
+        <span class="visit">Visit website <span>↗</span></span>
+      </a>
+
+    </div>
+
+    <p style="margin-top: 3rem; text-align: center; color: var(--muted); font-family: var(--mono); font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase;">
+      Listing a sample of LAVA members · Full directory available at the LAVA office
+    </p>
+
+  </div>
+</section>
+
+<section class="section donate-strip" style="background: var(--cream)">
+  <div class="container">
+    <div class="donate-card reveal">
+      <span class="eyebrow">Are You a Local Business?</span>
+      <h2>Join the merchants <span class="italic-accent">building this neighborhood.</span></h2>
+      <p>Members receive a directory listing, event sponsorship discounts, promotional opportunities, and voting rights in the association. Dues start at $110 for residents.</p>
+      <a class="btn btn-primary" href="join.html">Become a Member <span class="arrow">→</span></a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">L</span>
+          <span class="brand-name">
+            <span class="lava">LAVA</span>
+            <span class="full">Los Altos Village Assoc.</span>
+          </span>
+        </a>
+        <p>The premier merchants' organization serving Downtown Los Altos since 1963 — promoting awareness, supporting business, and bringing the community together.</p>
+        <div class="social">
+          <a href="https://www.facebook.com/DowntownLosAltos/" aria-label="Facebook">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+          </a>
+          <a href="https://twitter.com/LosAltosVillage" aria-label="X">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <h5>Visit</h5>
+        <ul>
+          <li><a href="directory.html">Member Directory</a></li>
+          <li><a href="events.html">Calendar of Events</a></li>
+          <li><a href="about.html">About LAVA</a></li>
+          <li><a href="join.html">Become a Member</a></li>
+          <li><a href="donate.html">Donate</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Office</h5>
+        <p class="contact-info">
+          75 Main Street<br/>
+          Los Altos, CA 94022<br/>
+          <a href="tel:6509495282">650-949-5282</a><br/>
+          <a href="mailto:info@downtownlosaltos.org">info@downtownlosaltos.org</a><br/>
+          <a href="https://maps.app.goo.gl/fuakCerPKRZQ5E5v6">View on map ↗</a>
+        </p>
+      </div>
+      <div>
+        <h5>Charitable Giving</h5>
+        <p class="contact-info">
+          The Los Altos Village Fund is a 501(c)(3) charitable organization managed through the Los Altos Community Foundation. Contributions may be deductible for federal income tax purposes.
+        </p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Los Altos Village Association · All rights reserved</span>
+      <span>Built with care for Downtown</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

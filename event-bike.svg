@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c4633a"/>
+      <stop offset="100%" stop-color="#a04f2c"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="250" fill="url(#bg2)"/>
+  <!-- light rays -->
+  <circle cx="320" cy="50" r="50" fill="#c69749" opacity="0.3"/>
+  <circle cx="320" cy="50" r="30" fill="#faf6ee" opacity="0.5"/>
+
+  <!-- Bike -->
+  <g transform="translate(200, 140)" stroke="#1a2820" stroke-width="4" fill="none" stroke-linecap="round">
+    <!-- wheels -->
+    <circle cx="-50" cy="20" r="35"/>
+    <circle cx="50" cy="20" r="35"/>
+    <!-- spokes -->
+    <line x1="-50" y1="-15" x2="-50" y2="55" stroke-width="1"/>
+    <line x1="-85" y1="20" x2="-15" y2="20" stroke-width="1"/>
+    <line x1="-75" y1="-5" x2="-25" y2="45" stroke-width="1"/>
+    <line x1="-75" y1="45" x2="-25" y2="-5" stroke-width="1"/>
+    <line x1="50" y1="-15" x2="50" y2="55" stroke-width="1"/>
+    <line x1="15" y1="20" x2="85" y2="20" stroke-width="1"/>
+    <line x1="25" y1="-5" x2="75" y2="45" stroke-width="1"/>
+    <line x1="25" y1="45" x2="75" y2="-5" stroke-width="1"/>
+    <!-- frame -->
+    <path d="M-50,20 L0,-25 L50,20 L0,20 L-50,20 M0,20 L0,-25"/>
+    <!-- seat -->
+    <path d="M-12,-35 L12,-35" stroke-width="6"/>
+    <line x1="0" y1="-25" x2="0" y2="-35"/>
+    <!-- handlebar -->
+    <path d="M50,-15 L60,-30 M50,-15 L40,-30" stroke-width="4"/>
+  </g>
+
+  <!-- Wine glass next to bike -->
+  <g transform="translate(330, 165)">
+    <path d="M-12,-30 Q-12,-10 0,-5 Q12,-10 12,-30 Z" fill="#c69749"/>
+    <line x1="0" y1="-5" x2="0" y2="20" stroke="#faf6ee" stroke-width="2"/>
+    <ellipse cx="0" cy="22" rx="12" ry="2" fill="#faf6ee"/>
+  </g>
+
+  <text x="200" y="225" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="18" fill="#faf6ee">Bike n' Dine</text>
+</svg>
